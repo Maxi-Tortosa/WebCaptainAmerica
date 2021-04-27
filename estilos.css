@@ -1,0 +1,14 @@
+header {width: 100%;  background-color: black;}
+
+.header__div1 {}
+.header__div2 {border-top-width: 0.5px; border-top-style:solid; border-top-color:whitesmoke;}
+.header__div2 a {text-decoration: none; color: whitesmoke;}
+
+section {width: 100%;}
+.section__presentacion {background-image: url("../Imágenes proyecto/img2.jpg"); /*Diseña fondo */
+                        background-attachment: fixed;
+                         height: 500px;
+                        background-size: cover;}
+.section__presentation--title--name {font-size: 20pt; color: whitesmoke;}
+.section__presentation--title--character {font-size: 45pt; color: whitesmoke;}
+footer {width: 100%; height: 100px; background-color: red;}
