@@ -1,5 +1,4 @@
-@import "defualtStyles";
-
+body {font-family: 'Cinzel', serif;}
 header {width: 100%; position: sticky; top: 0;}
 
 .header__div1 {display: flex; flex-direction: column; align-items:center; background-color: black;}
@@ -17,10 +16,12 @@ section {width: 100%;}
                         background-size: cover;
                         display: flex;
                         flex-direction: column;
-                        justify-content: center;}
+                        justify-content: center;}                        
 .section__presentation--title {display: flex; flex-direction: column; width: 650px;}
 .section__presentation--title--name {margin: 10px 40px; font-size: 20pt; color:black;}
 .section__presentation--title--character {margin: 0px 40px; font-size: 45pt; color:black;}
 .section__presentation--description {width: 550px; color: black;margin: 15px 40px;}
+.section__biography--h2 {margin: 0px 40px;}
+.section__biography--p {font-family: 'Libre Baskerville', serif; margin: 0px 40px;}
 
 footer {width: 100%; height: 100px; background-color: red;}
