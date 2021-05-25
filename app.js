@@ -20,47 +20,7 @@ const HomeSection = {
             of the Avengers.</p>
             
 
-        </div>
-
-        <div class="section_videos">
-
-        <div class="section_videos_mainVideo">
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/F020aNi0wS0?start=1" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-        </div>
-
-        <div class="section_videos_secundaryVideos">
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7i574Em3IrI?start=14"
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gZa82Xz1nys?start=4" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GyfiKakb-Gs?start=13" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jQbb43yLfO0?start=4" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/O1HrdInI_lw?start=12" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OdgrOdVBjBU?start=4" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-        </div>
-
-        </div>
+        </div>        
         `
     }
 }
@@ -68,14 +28,10 @@ const HomeSection = {
 const BiographySection = {
     render: () => {
         return `
-        <div class="navBar__div1">
-            <a href="" class="navBar__div1--home">HOME</a>
-            <a class="navBar__div1--movie">MOVIE</a>
-            <a href="#/biography" class="navBar__div1--comic">BIOGRAPHY</a>
-            <a class="navBar__div1--videos">VIDEOS</a>
-        </div>
-
         <div class="section__biography">
+
+        <p class="section__biography--p"> In this section you will find all biographic information about Captain America. Since he join the army to help 
+        his country with the war until he crash his ship trying to save his nation from the hydra nazis. </p>            
 
         <h2 class="section__biography--h2">Early Life</h2>
 
