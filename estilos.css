@@ -1,20 +1,43 @@
-header {width: 100%;  background-color: black;}
+body {font-family: 'Cinzel', serif; margin: 0px;}
+header { width: 100%; position: sticky; top: 0;}
 
-.header__div1 {display: flex; justify-content: center;}
-.header__div2 {display: flex; justify-content: center; border-top-width: 0.5px; border-top-style:solid; border-top-color:whitesmoke;}
-.header__div2 a {font-size: 15pt; text-decoration: none; color: whitesmoke; padding: 10px 20px;}
-.header__div2 a:hover {font-weight: bold;}
+.header__div1 {display: flex; flex-direction: column; align-items:center; background-color: black;}
+.header__div1--img {height: 60px; width: 149    px; margin-top: 10px; }
+.header__div1--p {color: whitesmoke; margin-bottom: 10px; font-weight: bold; font-size: 12pt;}
+
+nav {width: 100%;}
+.navBar__div1 {display: flex; justify-content: center; background-color: black; border-top-width: 0.5px; border-top-style:solid; border-top-color:whitesmoke;}
+.navBar__div1 a {font-size: 15pt; text-decoration: none; color: whitesmoke; padding: 10px 20px;}
+.navBar__div1 a:hover {font-weight: bold;}
 
 section {width: 100%;}
-.section__presentacion {background-image: url("../Imágenes proyecto/img6.png"); /*Diseña fondo */
+.section__presentation {background-image: url("../Imágenes proyecto/img6.png"); /*Diseña fondo */
                         height: 500px;
                         background-size: cover;
                         display: flex;
                         flex-direction: column;
-                        justify-content: center;}
+                        justify-content: center;}                        
 .section__presentation--title {display: flex; flex-direction: column; width: 650px;}
 .section__presentation--title--name {margin: 10px 40px; font-size: 20pt; color:black;}
 .section__presentation--title--character {margin: 0px 40px; font-size: 45pt; color:black;}
 .section__presentation--description {width: 550px; color: black;margin: 15px 40px;}
-
+.section__biography {color:black;}
+.section__biography__introduction {display: flex; flex-direction: column; align-items:center; background-color: black;}
+.section__biography__introduction--img{width: 550px; margin: 20px 0px;}
+.section__biography__introduction--p {width:750px; margin:20px 0px !important ;font-size: 16pt; font-weight: 500; color: whitesmoke;}
+.section__biography__information {display: flex; flex-direction: column;}
+.section__biography__information div {width: 700px; height: 162px;overflow: hidden;}
+.section__biography__information h2 {margin: 15px 40px;}
+.section__biography__information p {font-family: 'Libre Baskerville', serif; margin: 0px 40px;}
+#section__biography__information__earlyLife{height: 162px;}
+.section__videos {display:grid; grid-template-columns: 6fr 4fr; 
+                  grid-template-areas: "mainVideo secundaryVideos";}
+.section__videos__mainVideo {max-height: 550px;
+                             grid-area: mainVideo; display: flex; justify-content:center; align-items: center;}
+.section__videos__mainVideo--video1 {width: 770px; height: 500px; background-color: red;}
+.section__videos__secundaryVideos{max-height: 500px; overflow: auto; margin: 25px 0px;
+                                  grid-area: secundaryVideos;}
+.section__videos__secundaryVideos div {width: 485px; height: 150px; background-color: red; margin:20px;}
+.section__videos__secundaryVideos__secundaryVideo1{ margin-top: 0px !important;}
+.section__videos__secundaryVideos__secundaryVideo6{ margin-bottom: 0px !important;}
 footer {width: 100%; height: 100px; background-color: red;}
