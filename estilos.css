@@ -1,5 +1,5 @@
-body {font-family: 'Cinzel', serif;}
-header {width: 100%; position: sticky; top: 0;}
+body {font-family: 'Cinzel', serif; margin: 0px;}
+header { width: 100%; position: sticky; top: 0;}
 
 .header__div1 {display: flex; flex-direction: column; align-items:center; background-color: black;}
 .header__div1--img {height: 60px; width: 149    px; margin-top: 10px; }
@@ -21,9 +21,15 @@ section {width: 100%;}
 .section__presentation--title--name {margin: 10px 40px; font-size: 20pt; color:black;}
 .section__presentation--title--character {margin: 0px 40px; font-size: 45pt; color:black;}
 .section__presentation--description {width: 550px; color: black;margin: 15px 40px;}
-.section__biography {}
-.section__biography h2 {margin: 0px 40px;}
-.section__biography p {font-family: 'Libre Baskerville', serif; margin: 0px 40px;}
+.section__biography {color:black;}
+.section__biography__introduction {display: flex; flex-direction: column; align-items:center; background-color: black;}
+.section__biography__introduction--img{width: 550px; margin: 20px 0px;}
+.section__biography__introduction--p {width:750px; margin:20px 0px !important ;font-size: 16pt; font-weight: 500; color: whitesmoke;}
+.section__biography__information {display: flex; flex-direction: column;}
+.section__biography__information div {width: 700px; height: 162px;overflow: hidden;}
+.section__biography__information h2 {margin: 15px 40px;}
+.section__biography__information p {font-family: 'Libre Baskerville', serif; margin: 0px 40px;}
+#section__biography__information__earlyLife{height: 162px;}
 .section__videos {display:grid; grid-template-columns: 6fr 4fr; 
                   grid-template-areas: "mainVideo secundaryVideos";}
 .section__videos__mainVideo {max-height: 550px;
